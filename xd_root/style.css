@@ -1,0 +1,161 @@
+body {
+	margin: 0px;
+	background-color: #2C4860;
+	font-family: Arial,tahoma, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-align: justify;
+	color: #535353;
+}
+
+img
+{
+	border: 0px;
+}
+
+input,select,textarea {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+}
+
+
+table {
+	margin: 0; 
+	padding: 0; 
+	font-size: 11px
+}
+
+table td 
+{
+	padding: 0; 
+	border-width: 0; 
+	vertical-align: top; 
+	font-family: 
+	Verdana;
+}
+
+#englobe
+{
+	position: absolute;
+	width: 946px;
+	margin-left: -473px;
+	left: 50%;
+	top: 0px;
+}
+
+#banniere
+{
+	position: absolute; 
+	left: 353px; 
+	top: 35px; 
+	width: 468px; 
+	height: 60px;
+}
+
+
+#barre_user
+{
+	position: absolute; 
+	left: 112px; 
+	top: 170px; 
+	width: 723px; 
+	height: 33px
+}
+
+
+#menu
+{
+	position: absolute; 
+	left: 364px; 
+	top: 116px; 
+	width: 492px; 
+	height: 24px
+}
+
+
+#header
+{
+	width: 946px;
+	height: 232px;
+	background: url('images/header.jpg') no-repeat;
+}
+
+
+#footer
+{
+	width: 946px;
+	height: 78px;
+	background: url('images/footer.jpg') no-repeat;
+	padding: 43px 50px 0px 2px;
+	text-align: center;
+}
+
+a {
+	color: #535353; 
+	text-decoration: none; 
+	background-color: transparent;
+}
+
+
+a:hover {
+	color: #8fa42d; 
+	text-decoration: none;
+}
+
+
+#contenu
+{
+	background: transparent url('images/milieu.jpg') repeat-y;
+	padding: 0px 2px 0px 2px;
+}
+
+/* CSS partie XOOPS */
+
+.itemHead a {font-size: 10px; color: #FFFFFF;}
+.item {border: 0px;}
+.itemHead {background: url(images/news_titre.gif) repeat-y; font-weight: bold; width:588px; height:36px;color:#535353;float:left;padding-top: 12px; padding-left: 24px;}
+.itemInfo {text-align: right;background: url(images/news_infos.gif) no-repeat;width:588px;height:21px; color: #8fa42d; padding-right: 5px;float:left;}
+.itemTitle a {font-size: 11px;font-weight: bold; color: #535353; }
+.itemInfo a {font-size: 10px;color: #8fa42d; }
+.itemFoot a {font-size: 11px;color: #8fa42d; }
+.itemPoster {font-size: 85%; font-style:italic;}
+.itemPostDate {font-size: 85%; font-style:italic;}
+.itemStats {font-size: 85%; font-style:italic;}
+.itemBody {background:url(images/news_milieu.gif) repeat-y; width:588px;float:left;}
+.itemText {padding: 5px; line-height:1.5em;  text-align: justify;}
+.itemText:first-letter {font-size: 155%; font-weight: bold;}
+.itemFoot {background: url(images/news_bas.gif) no-repeat;width:588px; height: 23px;float:left;padding-left: 5px;}
+.itemAdminLink { font-size: 10px;}
+.itemPermaLink { font-size: 10px;}
+
+th {background:#B2CB4C; color:#FFFFFF; padding : 2px; vertical-align : middle; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+.outer {border: 1px solid silver;}
+.head {background:#B2CB4C; color:#FFFFFF; padding: 5px; font-weight: bold;}
+.even {background-color: #F5F6FA; padding: 5px;}
+.odd {background-color: #F5F6FA; padding: 5px;}
+.foot {background-color: #F5F6FA; padding: 5px; font-weight: bold;}
+
+tr.even td {background-color: #F5F6FA; padding: 5px;}
+tr.odd td {background-color: #F5F6FA; padding: 5px;}
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; margin : 0;px 6px 6px 6px;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; margin : 0;px 6px 6px 6px;}
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #808080; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #808080; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0px none;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic;}
+.comDateCaption {font-weight: bold; font-style: normal;}
